@@ -20,6 +20,11 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
+	@GetMapping("uploadAjax")
+	public void uploadAjax() {
+		
+	}
+	
 	@GetMapping("/uploadInput")
 	public void uploadInput() {
 		
