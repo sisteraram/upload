@@ -20,7 +20,7 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	@GetMapping("uploadAjax")
+	@GetMapping("/uploadAjax")
 	public void uploadAjax() {
 		
 	}
@@ -47,3 +47,9 @@ public class HomeController {
 	}
 	
 }
+
+
+
+
+
+
